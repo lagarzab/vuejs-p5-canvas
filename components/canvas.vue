@@ -15,7 +15,7 @@ export default {
             required: true
         }
     },
-    created () {
+    mounted () {
         const p5Script = (p5) => {
             let w = window.innerWidth - 20
             let h = window.innerHeight - 20
