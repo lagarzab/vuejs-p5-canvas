@@ -30,7 +30,7 @@ export default {
 
                 // Loop, which continues to draw canvas
                 p5.draw = () => {
-                    p5.background([ 0, 255, 0 ])
+                    p5.background([ 255, 0, 0 ])
                     p5.fill(255)
                     p5.text('white text on a red background', w / 2, h / 2)
                 }
